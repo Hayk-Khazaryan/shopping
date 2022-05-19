@@ -1,0 +1,62 @@
+.summary {
+       display: flex;
+       flex-direction: column;
+       align-items: flex-start;
+       background: #F5F5F5;
+       width: 280px;
+       padding: 15px;
+}
+
+.summary .title {
+       color: #074494;
+       font-size: 18px;
+       font-weight: 700;
+}
+
+.summary .discount {
+       color: #FF5523;
+       margin: unset;
+       width: unset;
+}
+
+.summary .total-price {
+       font-weight: 700;
+       margin-bottom: 16px;
+}
+
+.summary .continue-payment {
+       color: #FF5523;
+       width: 100%;
+       font-style: 18px;
+       background: #FF5523;
+       color: white;
+       border: none;
+}
+
+.summary .continue-payment:hover {
+       background: #FF5523;
+       border: none;
+       color: white;
+       opacity: 0.8;
+}
+
+.summary .d-f {
+       justify-content: space-between;
+       width: 100%;
+}
+
+.summary .display-f {
+       display: flex;
+}
+
+.summary .icon {
+       width: 15px;
+       height: 15px;
+       color: #FF5523;
+}
+
+.summary .icon-attach {
+       width: 15px;
+       height: 15px;
+       margin: 10px 0 16px;
+}

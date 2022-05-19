@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import Routess from './Routess'
+import LocalGroceryStoreIcon from '@mui/icons-material/LocalGroceryStore'
+import { Link } from 'react-router-dom'
+import { useState } from 'react'
+
 
 function App() {
+  const [isClick, setIsClick] = useState(false)
+  const handleClick = () => {
+    if (isClick) {
+      setIsClick(false)
+    } else {
+      setIsClick(true)
+    }
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div
+        onClick={() => handleClick()}
+        className="shopping-icon">
+        {
+          isClick
+            ?
+            <Link to="/" className='home'>HOME</Link>
+            :
+            <Link to="/shoppingCart"><LocalGroceryStoreIcon /></Link>
+        }
+      </div>
+      <Routess />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

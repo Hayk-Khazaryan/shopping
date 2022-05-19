@@ -1,0 +1,61 @@
+.add-items {
+       display: flex;
+       flex-direction: column;
+}
+
+.Person {
+       padding: 30px 0;
+}
+
+.Person .info .d-f {
+       align-items: center;
+}
+
+.add-items .basketball {
+       display: flex;
+}
+
+.add-items-basketball {
+       height: 200px;
+}
+
+.add-items-basketball .img {
+       width: 155px;
+       height: 155px;
+}
+
+.add-items .img {
+       width: 250px;
+       height: 200px;
+}
+
+.person-info {
+       margin: 0 30px;
+}
+
+.person-info .delete {
+       color: #1E2894;
+       font-weight: 600;
+}
+
+.text-filded {
+       width: 50px;
+       height: 50px;
+       color: #1E2894;
+       border: 1px solid #1E2894;
+       margin-left: 30px;
+       padding-left: 10px;
+}
+
+.info {
+       display: flex;
+       align-items: flex-start;
+}
+
+.info .money-icon {
+       width: 20px;
+}
+
+.prices{
+       margin-left: 20px;
+}

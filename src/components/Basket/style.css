@@ -1,0 +1,41 @@
+.contanier .payment {
+       display: none;
+}
+
+.basketball {
+       width: 252px;
+       cursor: pointer;
+}
+
+.block {
+       width: 100%;
+}
+
+.basketball .d-f {
+       justify-content: unset;
+}
+
+.basketball .d-f .css-i4bv87-MuiSvgIcon-root {
+       margin: unset;
+       width: 20px;
+}
+
+.basketball .img {
+       width: 252px;
+       height: 250px;
+}
+
+.text {
+       width: 200px;
+       color: #293A4D;
+       font-weight: 700;
+}
+
+.date {
+       color: #383B41;
+}
+
+.person {
+       color: #383B41;
+}
+

@@ -1,0 +1,23 @@
+.ShoppingCart .d-f{
+       align-items: flex-start;
+}
+
+
+.payment {
+       display: flex;
+       border-bottom: 1px solid #C9C9C9;
+       width: 800px;
+       margin-left: 100px;
+}
+
+.payment .nameing {
+       margin-right: 43%;
+}
+
+.payment .price {
+       margin-right: 8%;
+}
+
+.payment .quantity {
+       margin-right: 10%;
+}
