@@ -1,15 +1,13 @@
 import "./style.css"
 import Button from '@mui/material/Button'
-import { useSelector } from "react-redux"
 import AttachMoneyIcon from '@mui/icons-material/AttachMoney'
+import { selectCartItems } from "../../toolkitRedux/Slicers/toolkitSlice"
+import { useSelector } from "react-redux"
 
 
 
 function Summary() {
-       const cartItems = useSelector(state => {
-              const { cartItems } = state.cartItemReducer
-              return cartItems
-       })
+       const cartItems = useSelector(selectCartItems)
        let sum = 0;
        cartItems.forEach(item => {
               sum += item.price * item.count

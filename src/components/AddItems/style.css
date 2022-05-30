@@ -36,6 +36,7 @@
 .person-info .delete {
        color: #1E2894;
        font-weight: 600;
+       cursor: pointer;
 }
 
 .text-filded {

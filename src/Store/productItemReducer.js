@@ -1,12 +1,12 @@
-import data from "./data"
+// import data from "./data"
 
-const intialState = {
-       productItem: data
-}
+// const intialState = {
+//        productItem: data
+// }
 
-export function productItemReducer(state = intialState, action) {
-       switch (action.type) {
-              default:
-                     return state
-       }
-}
+// export function productItemReducer(state = intialState, action) {
+//        switch (action.type) {
+//               default:
+//                      return state
+//        }
+// }

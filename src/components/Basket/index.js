@@ -3,14 +3,14 @@ import Button from '@mui/material/Button'
 import data from "../../Store/data"
 import AttachMoneyIcon from '@mui/icons-material/AttachMoney'
 import { useDispatch } from "react-redux"
-import { addBasket } from "../../Store/action"
+import { ADD_TO_BASKET } from "../../toolkitRedux/Slicers/toolkitSlice"
 
 
 function Basketball() {
        const dispatch = useDispatch()
        const addPerson = (id, img, price, text, date, person, count) => {
-              dispatch(addBasket(id, img, price,
-                     text, date, person, count))
+              const paramsObj = { id, img, price, text, date, person, count }
+              dispatch(ADD_TO_BASKET(paramsObj))
        }
        return (
               <>
